@@ -58,6 +58,12 @@ sudoku-game/
 ├── style.css       # CSS file for styling the game
 └── script.js       # JavaScript file containing game logic
 
+## Sudoku Grid
+![Screenshot 2024-09-13 114818](https://github.com/user-attachments/assets/e122aa8d-70de-4209-acdf-8f205ba8e47b)
+
+
+
+
 
 ### Summary of Sections:
 1. **Project Overview**: Gives a quick summary of what the Sudoku game is about and what technologies are used.
