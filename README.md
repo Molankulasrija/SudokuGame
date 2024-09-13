@@ -49,6 +49,28 @@ Follow these steps to get the project up and running on your local machine.
     
     Alternatively, you can manually open the `index.html` file in your browser by locating it in your file explorer and double-clicking.
 
+### How to Play
+
+1. **Start the Game**:
+   - Open the game in your web browser. You will see a 9x9 Sudoku grid.
+   - Some cells are pre-filled with numbers; these are part of the initial puzzle and cannot be changed.
+
+2. **Input Numbers**:
+   - Click on any empty cell in the grid (where there are no pre-filled numbers).
+   - Use your keyboard to enter numbers between 1 and 9.
+
+3. **Check Your Solution**:
+   - Once you have filled in all the empty cells with your answers, click the **"Check Solution"** button.
+   - If the solution is correct, you will receive a success message, and the button will turn green.
+   - If there are errors, an error message will appear, and you can adjust your solution and try again.
+
+4. **Fix Mistakes**:
+   - If the solution is incorrect, revisit the cells with incorrect values, make the necessary changes, and click the **"Check Solution"** button again to verify your new solution.
+
+5. **Complete the Puzzle**:
+   - Keep playing until your solution is correct! The game will notify you once you have solved the puzzle.
+
+
 ### File Structure
 
 ```bash
@@ -57,24 +79,4 @@ sudoku-game/
 ├── index.html      # Main HTML file for the Sudoku game
 ├── style.css       # CSS file for styling the game
 └── script.js       # JavaScript file containing game logic
-
-
-
-### Summary of Sections:
-1. **Project Overview**: Gives a quick summary of what the Sudoku game is about and what technologies are used.
-2. **Features**: Lists key functionalities like responsive design, solution checking, error handling, etc.
-3. **Technologies Used**: Specifies HTML, CSS, and JavaScript as the technologies behind the project.
-4. **Getting Started**: Guides the user on how to set up the project on their local machine.
-5. **File Structure**: Provides a simple breakdown of the important files in the project.
-6. **How to Play**: Offers step-by-step instructions on how to interact with the game.
-7. **Customizing the Puzzle**: Explains how users can modify the initial puzzle numbers.
-8. **Contributing**: Describes the process for contributing to the project via GitHub, with instructions on forking, creating a new branch, making changes, and submitting pull requests.
-9. **License**: Specifies that the project uses the MIT License, which allows others to freely use, modify, and distribute the code.
-
-### Key Benefits of This `README.md`:
-- **Clarity**: Clear step-by-step instructions make it easy for users to run the game and contribute.
-- **Customization**: Provides users with an easy way to modify the puzzle.
-- **Collaboration**: Encourages contributions by explaining how to fork the repository and submit changes.
-
-
 
